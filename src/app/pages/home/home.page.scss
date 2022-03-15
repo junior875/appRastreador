@@ -25,3 +25,16 @@
 #container a {
   text-decoration: none;
 }
+
+ion-accordion-group{
+  margin: 0 auto;
+  background-color: #063409;
+  border-radius: 10px;
+}
+
+ion-accordion.accordion-expanding,
+ion-accordion.accordion-expanded {
+  width: calc(100% - 32px);
+  margin: 16px auto;
+}
+
